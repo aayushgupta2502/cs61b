@@ -1,16 +1,16 @@
 # cs61b
 Contains projects from UC Berkeley's Data Structures and Algorithms course.
-Project 0: Blocks
+Project 0: Blocks (piece.java, model.java, puzzleGenerator.java)
 The Blocks puzzle in this project has numerous variations available on the web and in mobile apps (for example, you can play an online Blocks Puzzle).
 You are presented with a grid of square cells (initially empty) and a set of some number of pieces formed from configurations of square, cell-sized blocks
 (we'll call these pieces the hand), which you try to arrange in order to cover empty cells of the grid. After each piece is placed, any rows and columns of
 the grid that have become completely filled are cleared. After you place all the pieces in the hand, it is refilled with the same number of pieces as before.
 Play continues until none of the pieces in the hand can fit anywhere on the board.
 
-Project 1: Enigma
+Project 1: Enigma (alphabet.java, enigmaMain.java, fixedRotor.java, machine.java, permutation.java, reflector.java, rotor.java)
 Designed Enigma machine from world war II.
 
-Project 2: Ataxx
+Project 2: Ataxx (ai.java, move.java, board.java)
 Ataxx is a two-person game played with red and blue pieces on a 7-by-7 board. As illustrated below, there are two possible kinds of moves:
 
 Extending - you can extend from a piece of your own color by laying down a new piece of your color in an empty square next to that existing piece
@@ -26,4 +26,11 @@ The one exception to this condition is if you have no pieces left on the board. 
 It is possible also to tie, when both sides end up with the same number of pieces on the board and: neither player can make a move, or
 the maximum number of jumps (25 consecutive across both players) has been reached.
 
-Project 3: Gitlet
+Project 3: Gitlet (commit.java, gitletMain.java, someObject.java, stagingArea.java)
+Implemented a version-control system that mimics some of the basic features of the popular system Git.
+The main functionalities that Gitlet supports are:
+--Saving the contents of entire directories of files. In Gitlet, this is called committing, and the saved contents themselves are called commits.
+--Restoring a version of one or more files or entire commits. In Gitlet, this is called checking out those files or that commit.
+--Viewing the history of your backups. In Gitlet, you view this history in something called the log.
+--Maintaining related sequences of commits, called branches.
+--Merging changes made in one branch into another.
